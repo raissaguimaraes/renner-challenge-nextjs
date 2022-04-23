@@ -7,7 +7,6 @@ module.exports = nextConfig
 
 module.exports = {
   images: {
-    loader: 'default',
-    path: 'https://img.lojasrenner.com.br/item/',
+    domains: ['imgur.com', 'img.lojasrenner.com.br'],
   },
-}
+};

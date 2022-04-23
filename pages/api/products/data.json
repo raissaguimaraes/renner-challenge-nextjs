@@ -1,40 +1,57 @@
 [
    {
+    "id": "1",
     "product_name": "BERMUDA CINTURA MÉDIA COM PREGAS E DETALHE NA BARRA VERDE",
 	"description": "Bermuda cintura média em viscolinho com pregas e detalhe na barra. Elegante e supercharmosa, a peça é perfeita para quem adora um look arrumadinho com conforto e leveza.",
-	"product_code": "001",
+	"productCode": "599974281",
 	"price": "89,90",
 	"summary": ["Altura: 1,74","Busto: 80", "Cintura: 62","Quadril: 90"],
-	"category": "Femenino",
+	"category": "Feminino",
 	"quantity": "5", 
-	"img": "https://img.lojasrenner.com.br/item/565759305/zoom/1.jpg"
+	"image": "https://img.lojasrenner.com.br/item/565759305/zoom/1.jpg"
     },
    {
+    "id": "2",
     "product_name": "BLUSA REGATA CROPPED EM VISCOSE COM FRANZIDO NO BUSTO E ESTAMPA POÁ BEGE",
     "description": "Blusa regata cropped em viscose, com detalhe franzido no busto, a peça torna-se mais delicada e charmosa. A estampa em poá alongado, nunca sai de moda, traz ao look uma ar vintage e superestiloso. O modelo é leve e muito confortável.",
-    "product_code": "002",
+    "productCode": "599419974",
     "price": "79,90",
     "summary": ["Altura: 1,77","Busto: 82", "Cintura: 63","Quadril: 93"],
     "quantity": "1",
-	"category": "Femenino",
-    "img": "https://img.lojasrenner.com.br/item/601231031/zoom/1.jpg" 
+	"category": "Feminino",
+    "image": "https://img.lojasrenner.com.br/item/601231031/zoom/1.jpg" 
 	},
    {
+    "id": "3",
     "product_name": "JAQUETA PESADA COM CAPUZ E FECHAMENTO POR BOTÕES E ZÍPER BEGE",
     "description": "Jaqueta com capuz ajustável, fechamento por zíper e botões. Puro estilo, a peça é a cara daqueles dias bastante frios. Sinônimo de aconchego e conforto, este item não pode faltar na coleção de todo homem que gosta de manter a elegância independente da estação.",
-    "product_code": "003",
+    "productCode": "599422909",
     "price": "319,90",
     "summary": ["Tamanho: G", "Cor: Cinza"],
-    "quantity": "0", 
-    "img": "https://img.lojasrenner.com.br/item/597003828/zoom/1.jpg" 
+    "quantity": "0",
+    "category": "Masculino",
+    "image": "https://img.lojasrenner.com.br/item/597003828/zoom/1.jpg" 
 	},
    {
+    "id": "4",
     "product_name": "BODY ALGODAO ESTAMPA LOCALIZADA CARA DE URSO E LETTERING BABY BEAR COM VIÉS CONTRASTANTE",
     "description": "Body infantil confeccionado em malha macia, possui estampa de urso e viés contrastante. A peça oferece gola americana, que garante praticidade na hora de vestir seu bebê, assim como o entrepernas com fechamento em botões de pressão. Sua composição em algodão responsável, proporciona conforto e respirabilidade, essenciais para acompanhar os pequenos em suas primeiras descobertas.",
-    "product_code": "004",
+    "productCode": "599428216",
     "price": "49,90",
     "summary": ["Tamanho: M", "Cor: Azul"],
     "quantity": "10", 
-    "img": "https://img.lojasrenner.com.br/item/616836711/zoom/1.jpg" 
-	}
+    "category": "Infantil",
+    "image": "https://img.lojasrenner.com.br/item/616836711/zoom/1.jpg" 
+	},
+    {
+     "id": "5",
+     "product_name": "REGATA COM RECORTES EM BLOCO DE COR E BOLSO FRONTAL MULTICORES",
+     "description": "Regata masculina, com recortes em blocos de cor em diferentes padronagens. Sua composição, em algodão e poliéster, proporciona conforto e respirabilidade, sem que a peça amasse tão facilmente. O modelo despojado é ideal para uso no dia-a-dia, e pode ser coordenado com peças mais básicas, como a bermuda jeans.",
+     "productCode": "552422501",
+     "price": "19,90",
+     "summary": ["Tamanho: PP", "Cor: Multicores"],
+     "quantity": "6", 
+     "category": "Moda Praia",
+     "image": "https://img.lojasrenner.com.br/item/552422527/zoom/1.jpg" 
+     }
 ]

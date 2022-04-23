@@ -9,7 +9,7 @@ import styles from '../styles/Header.module.css'
 function Header() {    
     return (  
     <nav className={styles.navbar}>
-      <h6 className={styles.logo}>Renner Front End</h6>
+      <h6 className={styles.logo}>Renner Front End Challenge</h6>
         <ul className={styles.links}>
           <li className={styles.navlink}>
           <Link href="/home">Home</Link>
