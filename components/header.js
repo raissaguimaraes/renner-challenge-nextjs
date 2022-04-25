@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
-import Image from 'next/image';
 import styles from '../styles/Header.module.css';
+import { BsCart } from 'react-icons/bs';
 
 function Header() {    
 
@@ -18,7 +18,7 @@ function Header() {
           <Link href="/home">Home</Link>
           </li>
           <li className={styles.navlink}>
-           <p> Cart ({getItemsCount()})</p>
+           <p><BsCart /> ({getItemsCount()})</p>
           </li>
         </ul>
     </nav>

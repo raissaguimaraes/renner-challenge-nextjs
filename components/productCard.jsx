@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
         <p>{product.summary}</p>
         <button hidden={product.quantity<1}
             onClick={() => dispatch(addToCart(product))}
-        className={styles.button}
+        className={styles.addtocartbutton}
         >
             Add to Cart</button>
     </div>
