@@ -1,4 +1,3 @@
-import AddCartButton from "../../components/addCartButton"
 import styles from '../../styles/Home.module.css'
 import { getProducts } from '../api/products/index'
 import ImageProduct from "../../components/imageProduct"

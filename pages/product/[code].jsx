@@ -7,7 +7,6 @@ const Product = ({ productsByCode }) => {
   const router = useRouter()
   return(
     <main className={styles.container}>
-      <h1 className={styles.title}>Results for {router.query.name}</h1>
       <div className={styles.cards}>
           {productsByCode.map((product) => (
             <ProductCard key={product.id} product={product} />

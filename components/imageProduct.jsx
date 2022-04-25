@@ -1,4 +1,4 @@
-import styles from '../styles/addCartButton.module.css'
+import styles from '../styles/product.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
