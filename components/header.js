@@ -3,10 +3,6 @@ import { useSelector } from 'react-redux';
 import Image from 'next/image';
 import styles from '../styles/Header.module.css';
 
-/*<span className={styles.logo}>
-            <Image src="/logo_black.png" alt="Renner Logo" width={120} height={32} />
-</span>*/
-
 function Header() {    
 
   const cart = useSelector((state) => state.cart);
@@ -22,9 +18,7 @@ function Header() {
           <Link href="/home">Home</Link>
           </li>
           <li className={styles.navlink}>
-          <Link href="/cart">
            <p> Cart ({getItemsCount()})</p>
-          </Link>
           </li>
         </ul>
     </nav>
