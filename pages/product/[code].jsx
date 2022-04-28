@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import ProductCard from '../../components/productCard';
-import styles from '../../styles/Home.module.css'
-import { getProductsByCode } from '../api/products/[code]'
+import styles from '../../styles/Home.module.css';
+import { getProductsByCode } from '../api/products/[code]';
 
 const Product = ({ productsByCode }) => {
   const router = useRouter()

@@ -15,6 +15,9 @@ const cartSlice = createSlice({
     incrementQuantity: (state, action) => {
       const item = state.find((item) => item.id === action.payload);
       item.quantity++;
+    },
+    lowestPrice : (state, action) => {
+      const item = state.find((item) = item.id === action.lowest);
     }
   },
 });
@@ -23,5 +26,6 @@ export const cartReducer = cartSlice.reducer;
 
 export const {
   addToCart,
-  incrementQuantity
+  incrementQuantity,
+  lowestPrice
 } = cartSlice.actions;
