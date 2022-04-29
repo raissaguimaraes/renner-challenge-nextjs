@@ -1,21 +1,12 @@
 
-import { getProducts } from '../api/products/index';
+import { getProducts } from './api/products/index';
 import Carousel from 'react-multi-carousel';
-import BannerLowestPrice from '../../components/bannerLowestPrice';
-import AddToCartButton from '../../components/addToCartButton';
+import BannerLowestPrice from '../components/bannerLowestPrice';
+import AddToCartButton from '../components/addToCartButton';
+import { Container } from '@mui/material';
 import "react-multi-carousel/lib/styles.css";
-import styles from '../../styles/Home.module.css';
 
 const Home = ({products}) => {
-
-  const styles = {
-    card: {
-      margin: "0 20px"
-    },
-    media: {
-      height: 140
-    }
-  };
 
   const responsive = {
     desktop: {
@@ -36,10 +27,8 @@ const Home = ({products}) => {
   };
     
     return( 
-      <div className="main-container">
-
+      <Container>
       <BannerLowestPrice product={products}/>
-
         <div>
           <Carousel 
             ssr={true}
@@ -55,7 +44,6 @@ const Home = ({products}) => {
                     draggable={false}
                     style={{ width: "100%", height: "100%" }}
                     src={product.image}
-                    
                   /></a> 
                   <AddToCartButton product={product} />
                 </div>
@@ -64,7 +52,7 @@ const Home = ({products}) => {
           </Carousel>
         </div>
 
-      </div>
+      </Container>
     )
 }
   

@@ -1,28 +1,48 @@
-import Link from 'next/link';
+import * as React from 'react';
 import { useSelector } from 'react-redux';
-import styles from '../styles/Header.module.css';
-import { BsCart } from 'react-icons/bs';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Badge from '@mui/material/Badge';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Avatar } from '@mui/material';
+import Button from '@mui/material/Button';
 
-function Header() {    
+function Header() {
+    const cart = useSelector((state) => state.cart);
 
-  const cart = useSelector((state) => state.cart);
+    const getItemsCount = () => {
+      return cart.reduce((accumulator, item) => accumulator + item.quantity, 0);
+    };
 
-  const getItemsCount = () => {
-    return cart.reduce((accumulator, item) => accumulator + item.quantity, 0);
-  };
-    return (  
-    <nav className={styles.navbar}>
-      <h6 className={styles.logo}>Renner Front End Challenge</h6>
-        <ul className={styles.links}>
-          <li className={styles.navlink}>
-          <Link href="/home">Home</Link>
-          </li>
-          <li className={styles.navlink}>
-           <p><BsCart /> ({getItemsCount()})</p>
-          </li>
-        </ul>
-    </nav>
-    );
-};
+  return (
+      <AppBar position="static">
+        <Toolbar style={{ backgroundColor: '#0e0000' }}>
+          <IconButton href="/" sx={{ p: 1 }}>
+            <Avatar alt="home" src='./logo.ico' />
+          </IconButton>
+            <Typography
+                variant="h6"
+                noWrap
+                component="div"
+                sx={{ display: { xs: 'none', sm: 'block' } }}
+                >
+                Renner Front End Challenge
+            </Typography>
+            <Button variant="text" href="/"  spacing={2} style={{ color: '#eceff6'}}>Home</Button>
+          <Box sx={{ flexGrow: 1 }} />
+          <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+            <IconButton size="large" aria-label="show 4 new mails" color="inherit">
+              <Badge badgeContent={getItemsCount()} color="error">
+                <ShoppingCartIcon />
+              </Badge>
+            </IconButton>
+          </Box>
+        </Toolbar>
+      </AppBar>
+  );
+}
 
 export default Header;

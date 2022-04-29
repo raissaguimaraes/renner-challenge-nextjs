@@ -1,13 +1,12 @@
 import { useRouter } from 'next/router';
 import ProductCard from '../../components/productCard';
-import styles from '../../styles/Home.module.css';
 import { getProductsByCode } from '../api/products/[code]';
 
 const Product = ({ productsByCode }) => {
   const router = useRouter()
   return(
-    <main className={styles.container}>
-      <div className={styles.cards}>
+    <main>
+      <div>
           {productsByCode.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
