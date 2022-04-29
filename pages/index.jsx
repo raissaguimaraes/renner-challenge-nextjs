@@ -1,10 +1,9 @@
-
 import { getProducts } from './api/products/index';
 import Carousel from 'react-multi-carousel';
-import BannerLowestPrice from '../components/bannerLowestPrice';
 import AddToCartButton from '../components/addToCartButton';
-import { Container } from '@mui/material';
+import BannerBackground from '../components/bannerBackground';
 import "react-multi-carousel/lib/styles.css";
+
 
 const Home = ({products}) => {
 
@@ -27,8 +26,8 @@ const Home = ({products}) => {
   };
     
     return( 
-      <Container>
-      <BannerLowestPrice product={products}/>
+      <div>
+      <BannerBackground product={products}/>
         <div>
           <Carousel 
             ssr={true}
@@ -51,8 +50,7 @@ const Home = ({products}) => {
             })}
           </Carousel>
         </div>
-
-      </Container>
+      </div>
     )
 }
   

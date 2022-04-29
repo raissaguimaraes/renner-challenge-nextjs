@@ -18,11 +18,8 @@ function Header() {
     };
 
   return (
-      <AppBar position="static">
+      <AppBar position="relative">
         <Toolbar style={{ backgroundColor: '#0e0000' }}>
-          <IconButton href="/" sx={{ p: 1 }}>
-            <Avatar alt="home" src='./logo.ico' />
-          </IconButton>
             <Typography
                 variant="h6"
                 noWrap
@@ -31,7 +28,9 @@ function Header() {
                 >
                 Renner Front End Challenge
             </Typography>
-            <Button variant="text" href="/"  spacing={2} style={{ color: '#eceff6'}}>Home</Button>
+            <Box sx={{p:2}}>
+            <Button variant="text" href="/" style={{ color: '#eceff6'}}>Home</Button>
+            </Box>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">

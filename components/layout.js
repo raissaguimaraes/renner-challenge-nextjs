@@ -2,18 +2,12 @@ import React from "react";
 import Head from "next/head";
 import Header from "./header";
 import Footer from "./footer";
-import { Container } from "@mui/material";
-import { makeStyles } from '@material-ui/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const useStyles = makeStyles({
-    page: {
-        background: '#f9f9f9',
-        maxWidth: '100%'
-    }
-})
+const theme = createTheme();
 
 function Layout({children}){
-    const classes = useStyles();
 
     return(
         <>
@@ -23,9 +17,12 @@ function Layout({children}){
                 <link rel="icon" href="/logo.ico"/>        
             </Head>
             <Header />
-            <Container >
+            <ThemeProvider theme={theme}>
+              <CssBaseline />
+                <main>
                     {children}
-            </Container>
+                </main>
+            </ThemeProvider>
             <Footer />
         </>
     )
