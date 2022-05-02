@@ -19,7 +19,7 @@
     "summary": "VERSATILIDADE DO FIT: O cropped é o termo em inglês para 'cortado' e é comumente utilizado para a versão mais curta de blusas. O fit valoriza o corpo e as curvas, tanto nos caimentos justinhos como nos mais soltos, pois revela mais a cintura. Indispensável no guarda-roupas pois é uma peça versátil e fácil de combinar nos looks. A dica é usar blusinhas croppeds com partes de baixo de cintura alta.",
     "quantity": 1,
 	"category": "Feminino",
-    "image": "https://img.lojasrenner.com.br/item/601231031/zoom/1.jpg" 
+    "image": "https://img.lojasrenner.com.br/item/624035455/large/3.jpg" 
 	},
    {
     "id": "3",
@@ -34,24 +34,79 @@
 	},
    {
     "id": "4",
-    "name": "BODY ALGODAO ESTAMPA LOCALIZADA CARA DE URSO E LETTERING BABY BEAR COM VIÉS CONTRASTANTE",
-    "description": "Body infantil confeccionado em malha macia, possui estampa de urso e viés contrastante. A peça oferece gola americana, que garante praticidade na hora de vestir seu bebê, assim como o entrepernas com fechamento em botões de pressão. Sua composição em algodão responsável, proporciona conforto e respirabilidade, essenciais para acompanhar os pequenos em suas primeiras descobertas.",
-    "code": "599428216",
-    "price": 9.90,
-    "summary": "VERSATILIDADE DO FIT: Os bodies são um clássico do guarda-roupa dos bebês. Com vários mecanismos que garantem praticidade ao vestir - da gola americana ao fechamento entrepernas, a peça também é um xodó das mamães. Superfofos, geralmente são confeccionados em tecidos naturais, proporcionando conforto e respirabilidade, indispensáveis para acompanhar os pequenos em suas primeiras descobertas. O TECIDO QUE AMAMOS: Superconhecida do grande público, a ribana é um tecido - em geral - composto por algodão, com superfície canelada. Confortável e respirável, tem uso frequente em blusas para o dia-a-dia, pijamas e até mesmo lingerie.",
+    "name": "VESTIDO LONGO EM TULE COM ESTAMPA DE BANANAS E BABADOS ROXO",
+    "description": "Vestido longo com decote quadrado, mangas longas e babados na saia. O modelo estampado esbanja estilo e personalidade, sendo perfeito para quem gosta de se vestir sempre com muita atitude. A peça atemporal, além de ser um look confortável é ideal para vestir em diversas ocasiões e arrasar no visual.",
+    "code": "602401266",
+    "price": 169.90,
+    "summary": "O TECIDO QUE AMAMOS: Confeccionado em poliamida, o tule tem origem na França, é superfamoso e um dos mais versáteis entre os tecidos. Pode aparecer formando babados, criando volumes, como base de bordados ou adicionando transparência às peças - ufa! São várias as aplicações, mas uma coisa é certa: é impossível ser basiquinho quando se trata desse material.",
     "quantity": 10, 
     "category": "Infantil",
-    "image": "https://img.lojasrenner.com.br/item/616836711/zoom/1.jpg" 
+    "image": "https://img.lojasrenner.com.br/item/602401266/large/3.jpg" 
 	},
     {
      "id": "5",
      "name": "REGATA COM RECORTES EM BLOCO DE COR E BOLSO FRONTAL MULTICORES",
      "description": "Regata masculina, com recortes em blocos de cor em diferentes padronagens. Sua composição, em algodão e poliéster, proporciona conforto e respirabilidade, sem que a peça amasse tão facilmente. O modelo despojado é ideal para uso no dia-a-dia, e pode ser coordenado com peças mais básicas, como a bermuda jeans.",
      "code": "552422501",
-     "price": 19.90,
+     "price": 39.90,
      "summary": "O TECIDO QUE AMAMOS. O Algodão é uma fibra longa e esbranquiçada, uma velha conhecida até dos menos entendidos de tecidos – impossível não associá-lo a uma camiseta básica, né? Com atributos como conforto, durabilidade e maciez, é utilizado há séculos para confecção de roupas. Diversos tecidos são feitos a partir do algodão, como tricoline, crepe, flanela e sarja, por exemplo.",
      "quantity": 6, 
      "category": "Moda Praia",
      "image": "https://img.lojasrenner.com.br/item/552422527/zoom/1.jpg" 
-     }
+     },
+     {
+        "id": "6",
+        "name": "BLUSA BÁSICA EM ALGODÃO COM DECOTE V E MANGA CURTA ROSA",
+        "description": "A blusa básica com decote V e manga curta, tem o poder de se encaixar em qualquer look perfeitamente, pois sua versatilidade permite diversas composições com outras peças para diferentes ocasiões. Este tipo de peça pode ser encontrada em cores variadas, vai de combinações mais simples até as mais elaboradas. Aposte com jeans liso para looks mais básicos e com calças, saias, bermudas ou shorts estampados para looks divertidos e ainda por baixo de um blazer, por exemplo, para looks mais formais.",
+        "code": "582727621",
+        "price": 19.90,
+        "summary": "O TECIDO QUE AMAMOS: O Algodão é uma fibra longa e esbranquiçada, uma velha conhecida até dos menos entendidos de tecidos – impossível não associá-lo a uma camiseta básica, né? Com atributos como conforto, durabilidade e maciez, é utilizado há séculos para confecção de roupas. Diversos tecidos são feitos a partir do algodão, como tricoline, crepe, flanela e sarja, por exemplo.",
+        "category": "Feminino",
+        "quantity": 15, 
+        "image": "https://img.lojasrenner.com.br/item/582727621/large/1.jpg"
+        },
+       {
+        "id": "7",
+        "name": "VESTIDO LONGO EM VISCOSE COM DECOTE TRANÇADO E ESTAMPA PRAIA BEG",
+        "description": "Vestido longo, com alças trançadas que se interligam ao decote. A peça é confeccionada em viscose responsável, é delicada e traz leveza ao look, além de ter a cara do verão com sua estampa de praia.",
+        "code": "601215875",
+        "price": 179.90,
+        "summary": "O TECIDO QUE AMAMOS: A viscose é mais uma fibra artificial do time da celulose. Leve e respirável, tem um toque supermacio. É uma ótima alternativa ao algodão convencional - já que poupa recursos hídricos - e pode ser encontrada em texturas variadas, garantindo peças com ótimo caimento. MODA RESPONSÁVEL: Matéria-prima que segue rígidos padrões ambientais durante a extração e fabricação da fibra de viscose. Produto contém percentual de Viscose Certificada na composição. Feita a partir de fibras vegetais com manejo sustentável e processo produtivo com redução de impacto ambiental.",
+        "quantity": 0,
+        "category": "Feminino",
+        "image": "https://img.lojasrenner.com.br/item/601215875/zoom/2.jpg" 
+        },
+       {
+        "id": "8",
+        "name": "JAQUETA PARKA COM GOLA ALTA E CAPUZ COM PELINHOS PRETO",
+        "description": "Jaqueta com capuz ajustável, fechamento por zíper e botões. Puro estilo, a peça é a cara daqueles dias bastante frios. Sinônimo de aconchego e conforto, este item não pode faltar na coleção de todo homem que gosta de manter a elegância independente da estação.",
+        "code": "597020302",
+        "price": 359.90,
+        "summary": " VERSATILIDADE DO FIT: Com modelagem, amplas, bolsos utilitário e geralmente contendo capuz, além de trazer consigo a tendência fashionista da pegada militar, a jaqueta parka também é superfuncional. Perfeita para dias mais fresquinhos e/ou chuvosos. O TECIDO QUE AMAMOS: Um marco na indústria têxtil, o poliéster foi o grande responsável pela criação de uma moda jovem e surgimento das tendências, isso lá nos anos 1960 - amém, poliéster! Uma característica importante é a memória de forma, que livra a peça daqueles amassados desgradáveis, motivo pelo qual a fibra é mesclada com outras não tão fortes nesse quesito, como o linho e algodão. Muita tecnologia foi aplicada no desenvolvimento do material nos últimos 60 anos, e as possibilidades são várias: de tecidos com toque e visual acetinado aos de alta performance, leves e respiráveis, ideais para o sportwear.",
+        "quantity": 10,
+        "category": "Feminino",
+        "image": "https://img.lojasrenner.com.br/item/597020302/zoom/3.jpg" 
+        },
+       {
+        "id": "9",
+        "name": "MACAQUINHO INFANTIL COM ESTAMPA POÁ - TAM 1 A 5 ANOS AZUL",
+        "description": "Macaquinho infantil com alcinhas largas e estampa poá, a peça ganha destaque no detalhe do abotoamento frontal e lacinho. Conta também com fechamento no entrepernas com botão de pressão, que garante praticidade na hora de vestir a criança. Confeccionada em algodão, a peça é leve e respirável, uma ótima opção para os dias mais quentes.",
+        "code": "597011836",
+        "price": 69.90,
+        "summary": "VERSATILIDADE DO FIT: Os bodies são um clássico do guarda-roupa dos bebês. Com vários mecanismos que garantem praticidade ao vestir - da gola americana ao fechamento entrepernas, a peça também é um xodó das mamães. Superfofos, geralmente são confeccionados em tecidos naturais, proporcionando conforto e respirabilidade, indispensáveis para acompanhar os pequenos em suas primeiras descobertas. O TECIDO QUE AMAMOS: Superconhecida do grande público, a ribana é um tecido - em geral - composto por algodão, com superfície canelada. Confortável e respirável, tem uso frequente em blusas para o dia-a-dia, pijamas e até mesmo lingerie.",
+        "quantity": 10, 
+        "category": "Infantil",
+        "image": "https://img.lojasrenner.com.br/item/597011836/zoom/17.jpg" 
+        },
+        {
+         "id": "10",
+         "name": "PERFUME FEMININO BENETTON SISTERLAND RED ROSE EAU DE TOILETTE 80ML",
+         "description": "A versão do perfume Benetton Colors Woman conta com notas de cítrico verde, musk, floral e amadeirado. Com um conceito inspirado na variedade de cores que representa alguns dos valores da marca italiana de moda, esse perfume tem a ver com diversidade. ",
+         "code": "562142836",
+         "price": 199.90,
+         "summary": "Se você gosta de destacar-se e surpreender quem está ao seu redor, os perfumes Benetton são uma ótima finalização para a sua produção. Por isso, temos uma seleção completa de opções para você escolher as fragrâncias que mais combinam com o seu estilo. São diversas opções para o público feminino e masculino encantar-se com os variados aromas. Os perfumes Benetton foram pensados nas pessoas modernas, jovens, descoladas, com atitude, estilo e personalidade. Descubra qual é a sua fragrância favorita!",
+         "quantity": 16, 
+         "category": "Infantil",
+         "image": "https://img.lojasrenner.com.br/item/562142836/large/3.jpg" 
+         }
 ]

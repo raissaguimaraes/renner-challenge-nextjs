@@ -6,7 +6,7 @@ import Link from '@mui/material/Link';
 function Footer() {  
 
     return (        
-      <Box sx={{ bgcolor: '#f4f4f4', p: 6 }} component="footer">
+      <Box sx={{ bgcolor: '#EBEBEB', p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
         By Raissa Guimarães
         </Typography>

@@ -1,7 +1,8 @@
 import { getProducts } from './api/products/index';
 import Carousel from 'react-multi-carousel';
 import AddToCartButton from '../components/addToCartButton';
-import BannerBackground from '../components/bannerBackground';
+import Box from '@mui/material/Box';
+import Banner from '../components/banner';
 import "react-multi-carousel/lib/styles.css";
 
 
@@ -26,9 +27,9 @@ const Home = ({products}) => {
   };
     
     return( 
-      <div>
-      <BannerBackground product={products}/>
-        <div>
+      <Box sx={{ bgcolor: '#f4f4f4'}} >
+      <Banner product={products}/>
+      <Box sx={{ bgcolor: '#f4f4f4'}} >
           <Carousel 
             ssr={true}
             responsive={responsive} 
@@ -49,8 +50,8 @@ const Home = ({products}) => {
                 )
             })}
           </Carousel>
-        </div>
-      </div>
+        </Box>
+      </Box>
     )
 }
   
